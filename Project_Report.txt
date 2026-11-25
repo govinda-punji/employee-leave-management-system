@@ -1,0 +1,28 @@
+EMPLOYEE LEAVE MANAGEMENT SYSTEM
+BCA Python Project Report
+
+1. Introduction
+The Employee Leave Management System is a console-based Python application designed to manage an employee's leave requests. It calculates the requested leave duration, checks the employee's leave balance, and approves or rejects the application.
+
+2. Problem Statement
+Develop a console application that manages employee leave. An employee applies for leave of a given type between two dates. The program calculates the number of days, checks the leave balance, and approves or rejects the request.
+
+3. Employee Details
+Employee ID: E101
+Name: Amit
+Casual Leave: 12 days
+Sick Leave: 10 days
+Earned Leave: 15 days
+
+4. Modules and Concepts
+- Python 3
+- Dictionary for employee records and leave balances
+- Functions for applying leave, date parsing, day calculation, and balance display
+- datetime module for date validation and calculation
+- Conditional statements and loops for menu processing
+
+5. Working
+The user selects Apply Leave or View Leave Balance from the menu. For an application, the program validates the employee ID, leave type, and dates. It counts both the start and end dates as leave days. If the balance is sufficient, the request is approved and the balance is reduced. Otherwise, the request is rejected and the balance is unchanged.
+
+6. Conclusion
+The project implements the required leave application and balance management functions and handles the four test scenarios stated in the assignment.
